@@ -8,6 +8,12 @@
 
 #import <Foundation/Foundation.h>
 
+#include "tstring.h"
+
 @interface NSString (TAGTaglibSupport)
+
++ (nullable instancetype)stringWithTagLibString:(const TagLib::String)string;
+
+@property (nonatomic, readonly) TagLib::String tagLibStringValue;
 
 @end
