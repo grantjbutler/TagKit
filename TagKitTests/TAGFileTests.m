@@ -32,7 +32,8 @@
 }
 
 - (void)testInvalidFileInitializer {
-	
+	TAGFile *file = [[TAGFile alloc] initWithPath:@"/Doesnt/Exist.mp5"];
+	XCTAssertNil(file);
 }
 
 @end
