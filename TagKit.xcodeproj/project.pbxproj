@@ -196,6 +196,7 @@
 				<string>C3048E501B484016007F2FF5</string>
 				<string>C3048E181B484016007F2FF5</string>
 				<string>C3048ED81B484016007F2FF5</string>
+				<string>C3048EF31B484D5E007F2FF5</string>
 			</array>
 			<key>isa</key>
 			<string>PBXSourcesBuildPhase</string>
@@ -251,6 +252,7 @@
 				<string>C3048E7F1B484016007F2FF5</string>
 				<string>C3048E9F1B484016007F2FF5</string>
 				<string>C3048E591B484016007F2FF5</string>
+				<string>C3048EF21B484D5E007F2FF5</string>
 				<string>C3048E871B484016007F2FF5</string>
 				<string>C3048EE51B484072007F2FF5</string>
 				<string>C3048E911B484016007F2FF5</string>
@@ -782,6 +784,8 @@
 			</array>
 			<key>defaultConfigurationIsVisible</key>
 			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
 			<key>isa</key>
 			<string>XCConfigurationList</string>
 		</dict>
@@ -854,6 +858,8 @@
 			</array>
 			<key>defaultConfigurationIsVisible</key>
 			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
 			<key>isa</key>
 			<string>XCConfigurationList</string>
 		</dict>
@@ -5813,8 +5819,6 @@
 			</array>
 			<key>isa</key>
 			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Supporting Files</string>
 			<key>path</key>
 			<string>Supporting Files</string>
 			<key>sourceTree</key>
@@ -5823,15 +5827,60 @@
 		<key>C3048EEF1B484BD9007F2FF5</key>
 		<dict>
 			<key>children</key>
-			<array/>
+			<array>
+				<string>C3048EF01B484D5E007F2FF5</string>
+				<string>C3048EF11B484D5E007F2FF5</string>
+			</array>
 			<key>isa</key>
 			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Classes</string>
 			<key>path</key>
 			<string>Classes</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
+		</dict>
+		<key>C3048EF01B484D5E007F2FF5</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>TAGFile.h</string>
+			<key>path</key>
+			<string>TAGFile.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>C3048EF11B484D5E007F2FF5</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>TAGFile.m</string>
+			<key>path</key>
+			<string>TAGFile.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>C3048EF21B484D5E007F2FF5</key>
+		<dict>
+			<key>fileRef</key>
+			<string>C3048EF01B484D5E007F2FF5</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>C3048EF31B484D5E007F2FF5</key>
+		<dict>
+			<key>fileRef</key>
+			<string>C3048EF11B484D5E007F2FF5</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
 		</dict>
 	</dict>
 	<key>rootObject</key>
