@@ -6,7 +6,7 @@
 //  Copyright © 2015 Grant J. Butler. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+@import Foundation;
 
 @interface TAGFile : NSObject
 
