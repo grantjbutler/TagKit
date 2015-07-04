@@ -23,6 +23,10 @@
 }
 
 + (nullable instancetype)stringWithTagLibString:(const TagLib::String)string {
+	if (string == TagLib::String::null) {
+		return nil;
+	}
+	
 	NSStringEncoding encoding = [self stringEncodingForTagLibString:string];
 	return [NSString stringWithCString:string.to8Bit(true).c_str() encoding:encoding];
 }
