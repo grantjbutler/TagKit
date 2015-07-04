@@ -8,6 +8,8 @@
 
 #import "TAGFile.h"
 
+#include "tfile.h"
+
 @implementation TAGFile
 
 - (instancetype)init {
