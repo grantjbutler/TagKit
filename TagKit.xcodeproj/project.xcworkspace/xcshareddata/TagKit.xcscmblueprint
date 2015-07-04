@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "958DCD68C89B46B0FB10EF06D13B129F35CCB2C1",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "958DCD68C89B46B0FB10EF06D13B129F35CCB2C1" : 0,
+    "8AB56571CE661B95DFF303C4860729674BB41218" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "22DC8CFD-C760-4C77-B91E-1FD7B55C1745",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "958DCD68C89B46B0FB10EF06D13B129F35CCB2C1" : "TagKit\/",
+    "8AB56571CE661B95DFF303C4860729674BB41218" : "TagKit\/Vendor\/taglib\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "TagKit",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 203,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "TagKit.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/taglib\/taglib.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "8AB56571CE661B95DFF303C4860729674BB41218"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:grantjbutler\/TagKit.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "958DCD68C89B46B0FB10EF06D13B129F35CCB2C1"
+    }
+  ]
+}
