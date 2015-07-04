@@ -1,4 +1,4 @@
 language: objective-c
 xcode_project: TagKit.xcodeproj
-xcode_scheme: TagKitTests
+xcode_scheme: TagKit
 
