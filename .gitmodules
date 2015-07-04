@@ -1,0 +1,3 @@
+[submodule "Vendor/taglib"]
+	path = Vendor/taglib
+	url = https://github.com/taglib/taglib.git
