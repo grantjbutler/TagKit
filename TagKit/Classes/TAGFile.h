@@ -8,6 +8,8 @@
 
 #import <Foundation/Foundation.h>
 
+NS_ASSUME_NONNULL_BEGIN
+
 @interface TAGFile : NSObject
 
 - (instancetype)init NS_UNAVAILABLE;
@@ -16,3 +18,5 @@
 - (instancetype)initWithFileURL:(NSURL *)URL NS_DESIGNATED_INITIALIZER;
 
 @end
+
+NS_ASSUME_NONNULL_END

@@ -8,7 +8,13 @@
 
 #import "TAGFile.h"
 
-#include "tfile.h"
+#include "fileref.h"
+
+@interface TAGFile ()
+
+@property (nonatomic, assign) TagLib::FileRef *fileRef;
+
+@end
 
 @implementation TAGFile
 
@@ -25,7 +31,10 @@
 - (instancetype)initWithFileURL:(NSURL *)URL {
 	self = [super init];
 	if (self) {
-	
+		_fileRef = new TagLib::FileRef(URL.path.fileSystemRepresentation);
+		if (!_fileRef || _fileRef->isNull()) {
+			return nil;
+		}
 	}
 	return self;
 }
