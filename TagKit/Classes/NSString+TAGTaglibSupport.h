@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "TagKitDefines.h"
+#import <TagKit/TagKitDefines.h>
 
 #include "tstring.h"
 
