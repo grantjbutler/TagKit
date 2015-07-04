@@ -1,0 +1,8 @@
+#!/bin/bash
+if [ -x /usr/local/bin/synx ]
+then
+    synx -e "/Vendor" TagKit.xcodeproj/
+else
+    echo "synx is not installed. Run `gem install synx` to install synx."
+fi
+
