@@ -227,6 +227,8 @@
 		C3048EF31B484D5E007F2FF5 /* TAGFile.mm in Sources */ = {isa = PBXBuildFile; fileRef = C3048EF11B484D5E007F2FF5 /* TAGFile.mm */; };
 		C3048EF51B485E74007F2FF5 /* TAGFileTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C3048EF41B485E74007F2FF5 /* TAGFileTests.m */; };
 		C3048EF81B486477007F2FF5 /* TestAudioFile.wav in Resources */ = {isa = PBXBuildFile; fileRef = C3048EF71B486477007F2FF5 /* TestAudioFile.wav */; };
+		C3048EFB1B486B67007F2FF5 /* NSString+TAGTaglibSupport.h in Headers */ = {isa = PBXBuildFile; fileRef = C3048EF91B486B67007F2FF5 /* NSString+TAGTaglibSupport.h */; };
+		C3048EFC1B486B67007F2FF5 /* NSString+TAGTaglibSupport.mm in Sources */ = {isa = PBXBuildFile; fileRef = C3048EFA1B486B67007F2FF5 /* NSString+TAGTaglibSupport.mm */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -465,6 +467,8 @@
 		C3048EF11B484D5E007F2FF5 /* TAGFile.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = TAGFile.mm; sourceTree = "<group>"; };
 		C3048EF41B485E74007F2FF5 /* TAGFileTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TAGFileTests.m; sourceTree = "<group>"; };
 		C3048EF71B486477007F2FF5 /* TestAudioFile.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = TestAudioFile.wav; sourceTree = "<group>"; };
+		C3048EF91B486B67007F2FF5 /* NSString+TAGTaglibSupport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+TAGTaglibSupport.h"; sourceTree = "<group>"; };
+		C3048EFA1B486B67007F2FF5 /* NSString+TAGTaglibSupport.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = "NSString+TAGTaglibSupport.mm"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -975,6 +979,8 @@
 			children = (
 				C3048EF01B484D5E007F2FF5 /* TAGFile.h */,
 				C3048EF11B484D5E007F2FF5 /* TAGFile.mm */,
+				C3048EF91B486B67007F2FF5 /* NSString+TAGTaglibSupport.h */,
+				C3048EFA1B486B67007F2FF5 /* NSString+TAGTaglibSupport.mm */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -1089,6 +1095,7 @@
 				C3048ED51B484016007F2FF5 /* tutils.h in Headers */,
 				C3048E2A1B484016007F2FF5 /* flacmetadatablock.h in Headers */,
 				C3048E851B484016007F2FF5 /* mpegfile.h in Headers */,
+				C3048EFB1B486B67007F2FF5 /* NSString+TAGTaglibSupport.h in Headers */,
 				C3048E0F1B484016007F2FF5 /* apefile.h in Headers */,
 				C3048EB51B484016007F2FF5 /* taglib_export.h in Headers */,
 				C3048E321B484016007F2FF5 /* itfile.h in Headers */,
@@ -1291,6 +1298,7 @@
 				C3048E3E1B484016007F2FF5 /* mp4atom.cpp in Sources */,
 				C3048E201B484016007F2FF5 /* asftag.cpp in Sources */,
 				C3048E5E1B484016007F2FF5 /* popularimeterframe.cpp in Sources */,
+				C3048EFC1B486B67007F2FF5 /* NSString+TAGTaglibSupport.mm in Sources */,
 				C3048E781B484016007F2FF5 /* id3v2footer.cpp in Sources */,
 				C3048EA41B484016007F2FF5 /* aiffproperties.cpp in Sources */,
 				C3048EDA1B484016007F2FF5 /* trueaudioproperties.cpp in Sources */,
