@@ -224,7 +224,7 @@
 		C3048EE21B484016007F2FF5 /* xmproperties.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C3048E0B1B484016007F2FF5 /* xmproperties.cpp */; };
 		C3048EE31B484016007F2FF5 /* xmproperties.h in Headers */ = {isa = PBXBuildFile; fileRef = C3048E0C1B484016007F2FF5 /* xmproperties.h */; };
 		C3048EE51B484072007F2FF5 /* taglib_config.h in Headers */ = {isa = PBXBuildFile; fileRef = C3048EE41B484072007F2FF5 /* taglib_config.h */; };
-		C3048EF21B484D5E007F2FF5 /* TAGFile.h in Headers */ = {isa = PBXBuildFile; fileRef = C3048EF01B484D5E007F2FF5 /* TAGFile.h */; };
+		C3048EF21B484D5E007F2FF5 /* TAGFile.h in Headers */ = {isa = PBXBuildFile; fileRef = C3048EF01B484D5E007F2FF5 /* TAGFile.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C3048EF31B484D5E007F2FF5 /* TAGFile.m in Sources */ = {isa = PBXBuildFile; fileRef = C3048EF11B484D5E007F2FF5 /* TAGFile.m */; };
 /* End PBXBuildFile section */
 
