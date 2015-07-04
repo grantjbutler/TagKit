@@ -18,7 +18,7 @@ NS_ASSUME_NONNULL_BEGIN
 - (nullable instancetype)initWithPath:(NSString *)path;
 - (nullable instancetype)initWithFileURL:(NSURL *)URL NS_DESIGNATED_INITIALIZER;
 
-@property (nullable, nonatomic, copy) NSString *artist;
+@property (nullable, nonatomic, copy) NSString *album;
 
 @end
 
