@@ -36,4 +36,13 @@
 	XCTAssertNil(file);
 }
 
+- (void)testAlbumGetter {
+	NSBundle *bundle = [NSBundle bundleForClass:[self class]];
+	NSURL *URL = [bundle URLForResource:@"TestAudioFile" withExtension:@"wav"];
+	TAGFile *file = [[TAGFile alloc] initWithFileURL:URL];
+	
+	XCTAssertNotNil(file);
+	XCTAssertEqualObjects(file.album, @"In Reality - Single");
+}
+
 @end
