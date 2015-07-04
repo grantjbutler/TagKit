@@ -6,7 +6,7 @@
 //  Copyright © 2015 Grant J. Butler. All rights reserved.
 //
 
-@import Foundation;
+#import <Foundation/Foundation.h>
 
 //! Project version number for TagKit.
 FOUNDATION_EXPORT double TagKitVersionNumber;
