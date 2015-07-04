@@ -14,8 +14,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 - (instancetype)init NS_UNAVAILABLE;
 
-- (instancetype)initWithPath:(NSString *)path;
-- (instancetype)initWithFileURL:(NSURL *)URL NS_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithPath:(NSString *)path;
+- (nullable instancetype)initWithFileURL:(NSURL *)URL NS_DESIGNATED_INITIALIZER;
 
 @end
 

@@ -23,12 +23,12 @@
 	return nil;
 }
 
-- (instancetype)initWithPath:(NSString *)path {
+- (nullable instancetype)initWithPath:(NSString *)path {
 	NSURL *fileURL = [NSURL fileURLWithPath:path];
 	return [self initWithFileURL:fileURL];
 }
 
-- (instancetype)initWithFileURL:(NSURL *)URL {
+- (nullable instancetype)initWithFileURL:(NSURL *)URL {
 	self = [super init];
 	if (self) {
 		_fileRef = new TagLib::FileRef(URL.path.fileSystemRepresentation);
@@ -37,6 +37,10 @@
 		}
 	}
 	return self;
+}
+
+- (void)dealloc {
+	delete self.fileRef;
 }
 
 @end
