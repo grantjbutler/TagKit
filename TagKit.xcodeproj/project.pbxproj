@@ -229,6 +229,7 @@
 		C3048EF81B486477007F2FF5 /* TestAudioFile.wav in Resources */ = {isa = PBXBuildFile; fileRef = C3048EF71B486477007F2FF5 /* TestAudioFile.wav */; };
 		C3048EFB1B486B67007F2FF5 /* NSString+TAGTaglibSupport.h in Headers */ = {isa = PBXBuildFile; fileRef = C3048EF91B486B67007F2FF5 /* NSString+TAGTaglibSupport.h */; };
 		C3048EFC1B486B67007F2FF5 /* NSString+TAGTaglibSupport.mm in Sources */ = {isa = PBXBuildFile; fileRef = C3048EFA1B486B67007F2FF5 /* NSString+TAGTaglibSupport.mm */; };
+		C3048EFE1B4871E9007F2FF5 /* TagKitDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = C3048EFD1B4871CC007F2FF5 /* TagKitDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -469,6 +470,7 @@
 		C3048EF71B486477007F2FF5 /* TestAudioFile.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = TestAudioFile.wav; sourceTree = "<group>"; };
 		C3048EF91B486B67007F2FF5 /* NSString+TAGTaglibSupport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+TAGTaglibSupport.h"; sourceTree = "<group>"; };
 		C3048EFA1B486B67007F2FF5 /* NSString+TAGTaglibSupport.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = "NSString+TAGTaglibSupport.mm"; sourceTree = "<group>"; };
+		C3048EFD1B4871CC007F2FF5 /* TagKitDefines.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TagKitDefines.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -981,6 +983,7 @@
 				C3048EF11B484D5E007F2FF5 /* TAGFile.mm */,
 				C3048EF91B486B67007F2FF5 /* NSString+TAGTaglibSupport.h */,
 				C3048EFA1B486B67007F2FF5 /* NSString+TAGTaglibSupport.mm */,
+				C3048EFD1B4871CC007F2FF5 /* TagKitDefines.h */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -1042,6 +1045,7 @@
 				C3048EAD1B484016007F2FF5 /* wavproperties.h in Headers */,
 				C3048E931B484016007F2FF5 /* oggpageheader.h in Headers */,
 				C3048EE11B484016007F2FF5 /* xmfile.h in Headers */,
+				C3048EFE1B4871E9007F2FF5 /* TagKitDefines.h in Headers */,
 				C3048E1B1B484016007F2FF5 /* asffile.h in Headers */,
 				C3048EA51B484016007F2FF5 /* aiffproperties.h in Headers */,
 				C3048E231B484016007F2FF5 /* audioproperties.h in Headers */,

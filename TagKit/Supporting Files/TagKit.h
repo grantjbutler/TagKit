@@ -14,4 +14,5 @@ FOUNDATION_EXPORT double TagKitVersionNumber;
 //! Project version string for TagKit.
 FOUNDATION_EXPORT const unsigned char TagKitVersionString[];
 
+#import <TagKit/TagKitDefines.h>
 #import <TagKit/TAGFile.h>
