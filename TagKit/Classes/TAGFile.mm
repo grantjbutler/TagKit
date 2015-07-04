@@ -7,8 +7,10 @@
 //
 
 #import "TAGFile.h"
+#import "NSString+TAGTaglibSupport.h"
 
 #include "fileref.h"
+#include "tstring.h"
 
 @interface TAGFile ()
 
@@ -41,6 +43,21 @@
 
 - (void)dealloc {
 	delete self.fileRef;
+}
+
+#pragma mark  - Accessors
+
+- (NSString * __nullable)album {
+	TagLib::String albumTagLibString = self.fileRef->tag()->album();
+	return [NSString stringWithTagLibString:albumTagLibString];
+}
+
+- (void)setAlbum:(NSString * __nullable)album {
+	TagLib::String albumTagLibString = TagLib::String::null;
+	if (album) {
+		albumTagLibString = album.tagLibStringValue;
+	}
+	self.fileRef->tag()->setAlbum(albumTagLibString);
 }
 
 @end
