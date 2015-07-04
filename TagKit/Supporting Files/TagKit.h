@@ -14,6 +14,4 @@ FOUNDATION_EXPORT double TagKitVersionNumber;
 //! Project version string for TagKit.
 FOUNDATION_EXPORT const unsigned char TagKitVersionString[];
 
-// In this header, you should import all the public headers of your framework using statements like #import <TagKit/PublicHeader.h>
-
-
+#import <TagKit/TAGFile.h>
