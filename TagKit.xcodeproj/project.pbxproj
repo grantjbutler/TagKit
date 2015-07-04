@@ -225,7 +225,7 @@
 		C3048EE31B484016007F2FF5 /* xmproperties.h in Headers */ = {isa = PBXBuildFile; fileRef = C3048E0C1B484016007F2FF5 /* xmproperties.h */; };
 		C3048EE51B484072007F2FF5 /* taglib_config.h in Headers */ = {isa = PBXBuildFile; fileRef = C3048EE41B484072007F2FF5 /* taglib_config.h */; };
 		C3048EF21B484D5E007F2FF5 /* TAGFile.h in Headers */ = {isa = PBXBuildFile; fileRef = C3048EF01B484D5E007F2FF5 /* TAGFile.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C3048EF31B484D5E007F2FF5 /* TAGFile.m in Sources */ = {isa = PBXBuildFile; fileRef = C3048EF11B484D5E007F2FF5 /* TAGFile.m */; };
+		C3048EF31B484D5E007F2FF5 /* TAGFile.mm in Sources */ = {isa = PBXBuildFile; fileRef = C3048EF11B484D5E007F2FF5 /* TAGFile.mm */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -462,7 +462,7 @@
 		C3048E0C1B484016007F2FF5 /* xmproperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = xmproperties.h; sourceTree = "<group>"; };
 		C3048EE41B484072007F2FF5 /* taglib_config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = taglib_config.h; sourceTree = "<group>"; };
 		C3048EF01B484D5E007F2FF5 /* TAGFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAGFile.h; sourceTree = "<group>"; };
-		C3048EF11B484D5E007F2FF5 /* TAGFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TAGFile.m; sourceTree = "<group>"; };
+		C3048EF11B484D5E007F2FF5 /* TAGFile.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = TAGFile.mm; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -972,7 +972,7 @@
 			isa = PBXGroup;
 			children = (
 				C3048EF01B484D5E007F2FF5 /* TAGFile.h */,
-				C3048EF11B484D5E007F2FF5 /* TAGFile.m */,
+				C3048EF11B484D5E007F2FF5 /* TAGFile.mm */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -1300,7 +1300,7 @@
 				C3048E501B484016007F2FF5 /* id3v1tag.cpp in Sources */,
 				C3048E181B484016007F2FF5 /* asfattribute.cpp in Sources */,
 				C3048ED81B484016007F2FF5 /* trueaudiofile.cpp in Sources */,
-				C3048EF31B484D5E007F2FF5 /* TAGFile.m in Sources */,
+				C3048EF31B484D5E007F2FF5 /* TAGFile.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
