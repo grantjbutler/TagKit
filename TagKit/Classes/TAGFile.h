@@ -10,4 +10,9 @@
 
 @interface TAGFile : NSObject
 
+- (instancetype)init NS_UNAVAILABLE;
+
+- (instancetype)initWithPath:(NSString *)path;
+- (instancetype)initWithFileURL:(NSURL *)URL NS_DESIGNATED_INITIALIZER;
+
 @end

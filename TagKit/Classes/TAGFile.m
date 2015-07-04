@@ -10,4 +10,22 @@
 
 @implementation TAGFile
 
+- (instancetype)init {
+	[NSException raise:NSInternalInconsistencyException format:@"-init is not available on TAGFile. Call -initWithPath: or -initWithFileURL: instead."];
+	return nil;
+}
+
+- (instancetype)initWithPath:(NSString *)path {
+	NSURL *fileURL = [NSURL fileURLWithPath:path];
+	return [self initWithFileURL:fileURL];
+}
+
+- (instancetype)initWithFileURL:(NSURL *)URL {
+	self = [super init];
+	if (self) {
+	
+	}
+	return self;
+}
+
 @end
