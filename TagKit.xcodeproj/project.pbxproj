@@ -226,10 +226,10 @@
 		C3048EF21B484D5E007F2FF5 /* TAGFile.h in Headers */ = {isa = PBXBuildFile; fileRef = C3048EF01B484D5E007F2FF5 /* TAGFile.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C3048EF31B484D5E007F2FF5 /* TAGFile.mm in Sources */ = {isa = PBXBuildFile; fileRef = C3048EF11B484D5E007F2FF5 /* TAGFile.mm */; };
 		C3048EF51B485E74007F2FF5 /* TAGFileTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C3048EF41B485E74007F2FF5 /* TAGFileTests.m */; };
-		C3048EF81B486477007F2FF5 /* TestAudioFile.wav in Resources */ = {isa = PBXBuildFile; fileRef = C3048EF71B486477007F2FF5 /* TestAudioFile.wav */; };
 		C3048EFB1B486B67007F2FF5 /* NSString+TAGTaglibSupport.h in Headers */ = {isa = PBXBuildFile; fileRef = C3048EF91B486B67007F2FF5 /* NSString+TAGTaglibSupport.h */; };
 		C3048EFC1B486B67007F2FF5 /* NSString+TAGTaglibSupport.mm in Sources */ = {isa = PBXBuildFile; fileRef = C3048EFA1B486B67007F2FF5 /* NSString+TAGTaglibSupport.mm */; };
 		C3048EFE1B4871E9007F2FF5 /* TagKitDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = C3048EFD1B4871CC007F2FF5 /* TagKitDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C3C4EBC41B4B3D1A00FAEA17 /* TestAudioFile.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C3C4EBC31B4B3D1A00FAEA17 /* TestAudioFile.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -467,10 +467,10 @@
 		C3048EF01B484D5E007F2FF5 /* TAGFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAGFile.h; sourceTree = "<group>"; };
 		C3048EF11B484D5E007F2FF5 /* TAGFile.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = TAGFile.mm; sourceTree = "<group>"; };
 		C3048EF41B485E74007F2FF5 /* TAGFileTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TAGFileTests.m; sourceTree = "<group>"; };
-		C3048EF71B486477007F2FF5 /* TestAudioFile.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = TestAudioFile.wav; sourceTree = "<group>"; };
 		C3048EF91B486B67007F2FF5 /* NSString+TAGTaglibSupport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+TAGTaglibSupport.h"; sourceTree = "<group>"; };
 		C3048EFA1B486B67007F2FF5 /* NSString+TAGTaglibSupport.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = "NSString+TAGTaglibSupport.mm"; sourceTree = "<group>"; };
 		C3048EFD1B4871CC007F2FF5 /* TagKitDefines.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TagKitDefines.h; sourceTree = "<group>"; };
+		C3C4EBC31B4B3D1A00FAEA17 /* TestAudioFile.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = TestAudioFile.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -991,7 +991,7 @@
 		C3048EF61B486458007F2FF5 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				C3048EF71B486477007F2FF5 /* TestAudioFile.wav */,
+				C3C4EBC31B4B3D1A00FAEA17 /* TestAudioFile.mp3 */,
 				C3048D131B483F95007F2FF5 /* Info.plist */,
 			);
 			path = "Supporting Files";
@@ -1212,7 +1212,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C3048EF81B486477007F2FF5 /* TestAudioFile.wav in Resources */,
+				C3C4EBC41B4B3D1A00FAEA17 /* TestAudioFile.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -17,12 +17,12 @@
 
 - (NSURL *)sampleAudioFileURL {
 	NSBundle *bundle = [NSBundle bundleForClass:[self class]];
-	return [bundle URLForResource:@"TestAudioFile" withExtension:@"wav"];
+	return [bundle URLForResource:@"TestAudioFile" withExtension:@"mp3"];
 }
 
 - (void)testInitWithPathInitializer {
 	NSBundle *bundle = [NSBundle bundleForClass:[self class]];
-	NSString *path = [bundle pathForResource:@"TestAudioFile" ofType:@"wav"];
+	NSString *path = [bundle pathForResource:@"TestAudioFile" ofType:@"mp3"];
 	TAGFile *file = [[TAGFile alloc] initWithPath:path];
 	
 	XCTAssertNotNil(file);
