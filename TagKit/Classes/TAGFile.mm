@@ -83,7 +83,7 @@
 	if (comment) {
 		commentTagLibString = comment.tagLibStringValue;
 	}
-	self.fileRef->tag()->setArtist(commentTagLibString);
+	self.fileRef->tag()->setComment(commentTagLibString);
 }
 
 @end
