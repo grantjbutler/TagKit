@@ -60,4 +60,17 @@
 	self.fileRef->tag()->setAlbum(albumTagLibString);
 }
 
+- (NSString * __nullable)artist {
+	TagLib::String albumTagLibString = self.fileRef->tag()->artist();
+	return [NSString stringWithTagLibString:albumTagLibString];
+}
+
+- (void)setArtist:(NSString * __nullable)artist {
+	TagLib::String artistTagLibString = TagLib::String::null;
+	if (artist) {
+		artistTagLibString = artist.tagLibStringValue;
+	}
+	self.fileRef->tag()->setArtist(artistTagLibString);
+}
+
 @end
