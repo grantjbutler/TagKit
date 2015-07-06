@@ -85,4 +85,11 @@
 	XCTAssertEqual(file.track, 1);
 }
 
+- (void)testYearGetter {
+	TAGFile *file = [[TAGFile alloc] initWithFileURL:[self sampleAudioFileURL]];
+	
+	XCTAssertNotNil(file);
+	XCTAssertEqual(file.year, 2015);
+}
+
 @end
