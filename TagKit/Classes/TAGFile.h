@@ -21,6 +21,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, copy, nullable) NSString *album;
 @property (nonatomic, copy, nullable) NSString *artist;
 @property (nonatomic, copy, nullable) NSString *comment;
+@property (nonatomic, copy, nullable) NSString *genre;
 
 @end
 

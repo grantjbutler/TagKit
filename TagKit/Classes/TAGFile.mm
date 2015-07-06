@@ -86,4 +86,17 @@
 	self.fileRef->tag()->setComment(commentTagLibString);
 }
 
+- (NSString * __nullable)genre {
+	TagLib::String genreTagLibString = self.fileRef->tag()->genre();
+	return [NSString stringWithTagLibString:genreTagLibString];
+}
+
+- (void)setGenre:(NSString * __nullable)genre {
+	TagLib::String genreTagLibString = TagLib::String::null;
+	if (genre) {
+		genreTagLibString = genre.tagLibStringValue;
+	}
+	self.fileRef->tag()->setGenre(genreTagLibString);
+}
+
 @end
