@@ -24,6 +24,8 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, copy, nullable) NSString *genre;
 @property (nonatomic, copy, nullable) NSString *title;
 
+@property (nonatomic, assign) uint track;
+
 @end
 
 NS_ASSUME_NONNULL_END

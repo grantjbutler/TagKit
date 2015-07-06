@@ -112,4 +112,12 @@
 	self.fileRef->tag()->setTitle(titleTagLibString);
 }
 
+- (uint)track {
+	return self.fileRef->tag()->track();
+}
+
+- (void)setTrack:(uint)track {
+	self.fileRef->tag()->setTrack(track);
+}
+
 @end
