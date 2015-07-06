@@ -78,4 +78,11 @@
 	XCTAssertEqualObjects(file.title, @"In Reality (Snippet)");
 }
 
+- (void)testTrackGetter {
+	TAGFile *file = [[TAGFile alloc] initWithFileURL:[self sampleAudioFileURL]];
+	
+	XCTAssertNotNil(file);
+	XCTAssertEqual(file.track, 1);
+}
+
 @end
