@@ -20,6 +20,8 @@
 	return [bundle URLForResource:@"TestAudioFile" withExtension:@"mp3"];
 }
 
+#pragma mark - Initializers
+
 - (void)testInitWithPathInitializer {
 	NSBundle *bundle = [NSBundle bundleForClass:[self class]];
 	NSString *path = [bundle pathForResource:@"TestAudioFile" ofType:@"mp3"];
@@ -38,6 +40,8 @@
 	TAGFile *file = [[TAGFile alloc] initWithPath:@"/Doesnt/Exist.mp5"];
 	XCTAssertNil(file);
 }
+
+#pragma mark - Getters
 
 - (void)testAlbumGetter {
 	TAGFile *file = [[TAGFile alloc] initWithFileURL:[self sampleAudioFileURL]];
@@ -58,6 +62,13 @@
 	
 	XCTAssertNotNil(file);
 	XCTAssertEqualObjects(file.comment, @"This is a comment");
+}
+
+- (void)testGenreGetter {
+	TAGFile *file = [[TAGFile alloc] initWithFileURL:[self sampleAudioFileURL]];
+	
+	XCTAssertNotNil(file);
+	XCTAssertEqualObjects(file.genre, @"Progressive House");
 }
 
 @end
