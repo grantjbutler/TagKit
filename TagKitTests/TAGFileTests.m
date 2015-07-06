@@ -15,6 +15,11 @@
 
 @implementation TAGFileTests
 
+- (NSURL *)sampleAudioFileURL {
+	NSBundle *bundle = [NSBundle bundleForClass:[self class]];
+	return [bundle URLForResource:@"TestAudioFile" withExtension:@"wav"];
+}
+
 - (void)testInitWithPathInitializer {
 	NSBundle *bundle = [NSBundle bundleForClass:[self class]];
 	NSString *path = [bundle pathForResource:@"TestAudioFile" ofType:@"wav"];
@@ -24,9 +29,7 @@
 }
 
 - (void)testInitWithFilePathInitializer {
-	NSBundle *bundle = [NSBundle bundleForClass:[self class]];
-	NSURL *URL = [bundle URLForResource:@"TestAudioFile" withExtension:@"wav"];
-	TAGFile *file = [[TAGFile alloc] initWithFileURL:URL];
+	TAGFile *file = [[TAGFile alloc] initWithFileURL:[self sampleAudioFileURL]];
 	
 	XCTAssertNotNil(file);
 }
@@ -37,12 +40,17 @@
 }
 
 - (void)testAlbumGetter {
-	NSBundle *bundle = [NSBundle bundleForClass:[self class]];
-	NSURL *URL = [bundle URLForResource:@"TestAudioFile" withExtension:@"wav"];
-	TAGFile *file = [[TAGFile alloc] initWithFileURL:URL];
+	TAGFile *file = [[TAGFile alloc] initWithFileURL:[self sampleAudioFileURL]];
 	
 	XCTAssertNotNil(file);
 	XCTAssertEqualObjects(file.album, @"In Reality - Single");
+}
+
+- (void)testArtistGetter {
+	TAGFile *file = [[TAGFile alloc] initWithFileURL:[self sampleAudioFileURL]];
+	
+	XCTAssertNotNil(file);
+	XCTAssertEqualObjects(file.artist, @"Pierce Fulton");
 }
 
 @end
