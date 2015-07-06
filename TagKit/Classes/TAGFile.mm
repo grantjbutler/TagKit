@@ -99,4 +99,17 @@
 	self.fileRef->tag()->setGenre(genreTagLibString);
 }
 
+- (NSString * __nullable)title {
+	TagLib::String titleTagLibString = self.fileRef->tag()->title();
+	return [NSString stringWithTagLibString:titleTagLibString];
+}
+
+- (void)setTitle:(NSString * __nullable)title {
+	TagLib::String titleTagLibString = TagLib::String::null;
+	if (title) {
+		titleTagLibString = title.tagLibStringValue;
+	}
+	self.fileRef->tag()->setTitle(titleTagLibString);
+}
+
 @end
