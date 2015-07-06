@@ -73,4 +73,17 @@
 	self.fileRef->tag()->setArtist(artistTagLibString);
 }
 
+- (NSString * __nullable)comment {
+	TagLib::String commentTagLibString = self.fileRef->tag()->comment();
+	return [NSString stringWithTagLibString:commentTagLibString];
+}
+
+- (void)setComment:(NSString * __nullable)comment {
+	TagLib::String commentTagLibString = TagLib::String::null;
+	if (comment) {
+		commentTagLibString = comment.tagLibStringValue;
+	}
+	self.fileRef->tag()->setArtist(commentTagLibString);
+}
+
 @end
