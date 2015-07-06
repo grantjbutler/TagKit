@@ -71,4 +71,11 @@
 	XCTAssertEqualObjects(file.genre, @"Progressive House");
 }
 
+- (void)testTitleGetter {
+	TAGFile *file = [[TAGFile alloc] initWithFileURL:[self sampleAudioFileURL]];
+	
+	XCTAssertNotNil(file);
+	XCTAssertEqualObjects(file.title, @"In Reality (Snippet)");
+}
+
 @end
