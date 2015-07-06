@@ -120,4 +120,12 @@
 	self.fileRef->tag()->setTrack(track);
 }
 
+- (uint)year {
+	return self.fileRef->tag()->year();
+}
+
+- (void)setYear:(uint)year {
+	self.fileRef->tag()->setYear(year);
+}
+
 @end

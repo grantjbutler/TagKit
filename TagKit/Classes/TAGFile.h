@@ -25,6 +25,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, copy, nullable) NSString *title;
 
 @property (nonatomic, assign) uint track;
+@property (nonatomic, assign) uint year;
 
 @end
 
