@@ -53,4 +53,11 @@
 	XCTAssertEqualObjects(file.artist, @"Pierce Fulton");
 }
 
+- (void)testCommentGetter {
+	TAGFile *file = [[TAGFile alloc] initWithFileURL:[self sampleAudioFileURL]];
+	
+	XCTAssertNotNil(file);
+	XCTAssertEqualObjects(file.comment, @"This is a comment");
+}
+
 @end
