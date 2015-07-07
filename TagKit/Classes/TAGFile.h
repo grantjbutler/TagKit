@@ -27,6 +27,8 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, assign) uint track;
 @property (nonatomic, assign) uint year;
 
+- (BOOL)save;
+
 @end
 
 NS_ASSUME_NONNULL_END

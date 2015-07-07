@@ -128,4 +128,8 @@
 	self.fileRef->tag()->setYear(year);
 }
 
+- (BOOL)save {
+	return self.fileRef->save();
+}
+
 @end
