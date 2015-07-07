@@ -36,8 +36,13 @@
 	XCTAssertNotNil(file);
 }
 
-- (void)testInvalidFileInitializer {
+- (void)testInvalidFilePathInitializer {
 	TAGFile *file = [[TAGFile alloc] initWithPath:@"/Doesnt/Exist.mp5"];
+	XCTAssertNil(file);
+}
+
+- (void)testInvalidFileURLInitializer {
+	TAGFile *file = [[TAGFile alloc] initWithFileURL:[NSURL fileURLWithPath:@"/Doesnt/Exist.mp5"]];
 	XCTAssertNil(file);
 }
 
