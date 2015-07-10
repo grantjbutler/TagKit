@@ -2,4 +2,4 @@ language: objective-c
 xcode_project: TagKit.xcodeproj
 xcode_scheme: TagKit
 xcode_sdk: iphonesimulator8.1
-
+osx_image: xcode6.4
